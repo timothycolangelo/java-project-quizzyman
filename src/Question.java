@@ -1,11 +1,11 @@
 public class Question {
 
-    private String question = "";
-    private String choice1 = "";
-    private String choice2 = "";
-    private String choice3 = "";
-    private String choice4 = "";
-    private String answer = "";
+    private String question = null;
+    private String choice1 = null;
+    private String choice2 = null;
+    private String choice3 = null;
+    private String choice4 = null;
+    private String answer = null;
 
     public Question(String question, String choice1, String choice2, String choice3, String choice4, String answer) {
         this.question = question;
